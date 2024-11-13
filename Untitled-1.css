@@ -1,0 +1,113 @@
+/* Resetando os estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cor de fundo e fonte padrão */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fee1dd; /* Cor de fundo suave */
+    color: #333; /* Cor do texto */
+    line-height: 1.6;
+}
+
+/* Container para centralizar o conteúdo */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #000; /* Preto */
+    color: #fee1dd; /* Cor suave de rosa */
+    padding: 30px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+/* Seção de feedbacks */
+#feedbacks {
+    background-color: #fff; /* Cor branca para contrastar com o fundo */
+    padding: 40px 0;
+}
+
+#feedbacks h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.feedback {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 5px solid #fee1dd;
+}
+
+.feedback p {
+    font-size: 1.2em;
+}
+
+.feedback strong {
+    font-weight: bold;
+    color: #000;
+}
+
+/* Seção de contato */
+#contato {
+    padding: 40px 0;
+    background-color: #000; /* Preto */
+    color: #fee1dd; /* Rosa suave */
+}
+
+#contato h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#contato ul {
+    list-style: none;
+    text-align: center;
+}
+
+#contato ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+#contato ul li a {
+    color: #fee1dd;
+    text-decoration: none;
+}
+
+#contato ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000; /* Preto */
+    color: #fee1dd; /* Rosa suave */
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1em;
+}
